@@ -6,6 +6,10 @@ apply plugin: 'kotlin-android-extensions'
 
 apply plugin: 'maven'
 
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.vitorruiz'
+
 android {
     compileSdkVersion 28
     defaultConfig {
